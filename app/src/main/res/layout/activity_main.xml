@@ -41,5 +41,17 @@
         android:layout_height="wrap_content"
         android:text="문자보내기"/>
 
+    <Button
+        android:id="@+id/naverWebLinkBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="네이버 링크"/>
+
+    <Button
+        android:id="@+id/kakaoPlayStoreLinkBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="카카오 플레이스토어 링크"/>
+
 
 </LinearLayout>
