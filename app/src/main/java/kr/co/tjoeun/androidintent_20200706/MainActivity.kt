@@ -28,5 +28,15 @@ class MainActivity : AppCompatActivity() {
 
 
         }
+
+        callBtn.setOnClickListener {
+
+            val inputPhoneNum = phoneNumEdt.text.toString()
+
+            val myUri = Uri.parse("tel: ${inputPhoneNum}")
+            val myIntent = Intent(Intent.ACTION_CALL,myUri)
+            startActivity(myIntent)
+
+        }
     }
 }
